@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    align-self: center;
+    border-bottom: 2px solid antiquewhite;
+}
+
+.navbar-splitleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.adobe {
+    font-size: 20px;
+    font-family: 'Assistant', sans-serif;
+    color: red;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 0 30px;
+    color: black;
+    font-family: 'Assistant', sans-serif;
+}
+
+nav .adobe {
+    font-size: 25px;
+}
+
+nav .adobe:hover {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+header nav li a:hover {
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.products {
+    display: block;
+    position: absolute;
+    background-color: rgb(235, 228, 222);
+}
+
+.products ul li a {
+    margin: 0;
+    padding: 0;
+}
+
+.products ul {
+    display: block;
+    top: 100%;
+    left: 0;
+    margin: 10px 30px;
+    padding: 10px 40px;
+}
+
+.dr-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* min-width: 40vw; */
+}
+
+
+.products {
+    display: none;
+    /* display: flex; */
+    overflow: visible;
+    transition: all .3s;
+}
+
+nav ul li:hover .products {
+    display: flex;
+    position: absolute;
+    overflow: visible;
+    position: fixed;
+    z-index: 2;
+    transition: all .3s;
+}
+
+.products ul li {
+    margin: 2px;
+    padding: 2px;
+}
+
+.drh-mar {
+    margin-bottom: 12px;
+    border-bottom: 2px solid antiquewhite;
+    font-size: 21px;
+}
+
+.drsec {
+    font-size: 13px;
+    font-family: 'Assistant', sans-serif;
+}
+
+main {
+    min-height: calc(100vh - 14vh - 50vh);
+    background-color: whitesmoke;
+    overflow: visible;
+}
+
+main .bgimg1cl {
+    background-image: url('https://s7d1.scene7.com/is/image/TitanProd/apac-cci-promo-q3fy22-homepage-pod0-desktop-d-2?$pjpeg$&jpegSize=300&wid=1920');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bgimg1-content {
+    display: inline-block;
+    position: relative;
+    top: -9vh;
+    left: -23vw;
+}
+
+.bgimg1-content h1 {
+    padding: 12px 0;
+    color: whitesmoke;
+}
+
+.bgimg1-content h3 {
+    padding: 10px 0;
+    color: whitesmoke;
+}
+
+.bgimg1-content h4 {
+    padding: 10px 0;
+    color: whitesmoke;
+}
+
+.bgimg1-content .btns {
+    display: flex;
+    margin-top: 8px;
+}
+
+.bgimg1-content .btns a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.bgimg1-content .btns .buy {
+    display: block;
+    box-sizing: border-box;
+    width: 8vw;
+    height: 4vh;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 110, 255, 0.877);
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+.bgimg1-content .btns .learnmore {
+    display: block;
+    box-sizing: border-box;
+    width: 8vw;
+    height: 4vh;
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgba(0, 110, 255, 0.877); */
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+/* main .crcf{
+    display: flex;
+    border-bottom: 1px solid wheat;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Assistant', sans-serif;
+} */
+
+main .crcf {
+    height: 10vh;
+    border-bottom: 1px solid wheat;
+}
+
+main .crcf .ccf {
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Assistant', sans-serif;
+}
+
+main .crcf li a {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 140, 255, 0.836);
+}
+
+main .crcf li a:hover {
+    text-decoration: underline;
+}
+
+.citems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 36px;
+}
+
+.citems .cleft {
+    background-image: url("https://s7d1.scene7.com/is/image/TitanProd/single-desktop-3?$pjpeg$&jpegSize=200&wid=1260");
+    min-height: 70vh;
+    width: 30vw;
+    background-size: 100%;
+    background-position: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 8px;
+    padding: 0 3px;
+}
+
+.citems .cleft a {
+    text-decoration: none;
+}
+
+.citems .cleft:hover {
+    border: 2px solid black;
+}
+
+#cleft-content1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#cleft-content2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#cleft-content3 {
+    font-size: larger;
+
+}
+
+.cleft-content {
+    margin: 9px;
+    padding: 4px;
+    color: whitesmoke;
+    font-family: 'Assistant', sans-serif;
+}
+
+.citems .ccenter {
+    background-image: url("https://s7d1.scene7.com/is/image/TitanProd/PS-campaign-homepage-single-desktop_v6?$pjpeg$&jpegSize=200&wid=1260");
+    min-height: 70vh;
+    width: 30vw;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 8px;
+    padding: 0 3px;
+}
+
+.citems .ccenter a {
+    text-decoration: none;
+}
+
+.citems .ccenter:hover {
+    border: 2px solid black;
+}
+
+#ccenter-content1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#ccenter-content2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#ccenter-content3 {
+    font-size: larger;
+
+}
+
+.ccenter-content {
+    margin: 9px;
+    padding: 4px;
+    color: black;
+    font-family: 'Assistant', sans-serif;
+}
+
+.citems .cright {
+    background-color: red;
+    min-height: 70vh;
+    width: 30vw;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 8px;
+    padding: 0 3px;
+}
+
+.citems .cright a {
+    text-decoration: none;
+}
+
+.citems .cright:hover {
+    border: 2px solid black;
+}
+
+#cright-content1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#cright-content2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#cright-content3 {
+    font-size: larger;
+
+}
+
+.cright-content {
+    margin: 9px;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+    font-family: 'Assistant', sans-serif;
+}
+
+footer {
+    background-color: antiquewhite;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 13px 13px 13px;
+    padding: 0 13px 13px 13px;
+}
+
+.footer1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 14px;
+    width: 100%;
+}
+
+.footer1 ul li {
+    padding: 2px;
+    width: 100%;
+}
+
+.fhead {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    margin-top: 20px;
+}
+
+.category .fhead a:hover {
+    color: black;
+}
+
+.footer1 ul li .fspace {
+    padding-top: 20px;
+}
+
+.footer1 ul li a:hover {
+    color: rgb(121, 119, 116);
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(80, 78, 78);
+    border-bottom: 1px solid rgb(80, 78, 78);
+    margin: 0 75px;
+    padding: 0 20px;
+}
+
+.footer2 ul {
+    margin: 8px;
+}
+
+.footer2 ul li {
+    margin: 0 -23px;
+}
+
+.footer2 ul li a:hover {
+    color: #e0dbdbb8;
+}
+
+.aar {
+    position: relative;
+    bottom: 1px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
+    color: #2b2929b8;
+}
+
+.footer3 {
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.region {
+    display: flex;
+    position: relative;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #2b2929b8;
+}
+
+.chregion {
+    position: relative;
+    top: 2px;
+}
+
+.fsplit-left {
+    display: flex;
+}
+
+.footer3 ul li {
+    margin: 0 -17px;
+}
+
+.footer3 ul .copyright {
+    margin-right: 10px;
+}
+
+.fsplit-right ul li {
+    font-size: 12px;
+    margin: 0 -27px;
+}
+
+.fsplit-right .fright-content {
+    font-size: 12px;
+    margin: 0 -27px;
+
+}
+
+.fsplit-right .fright-content a {
+    text-decoration: none;
+    color: rgb(121, 118, 118);
+}
+
+
+.fsplit-right ul li a:hover {
+    color: #9b9898b8;
+}
+
+.ladchoices {
+    position: relative;
+    bottom: 6px;
+}
+
+.adchoices {
+    position: relative;
+    bottom: 11px;
+}

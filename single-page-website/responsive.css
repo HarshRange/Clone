@@ -1,0 +1,147 @@
+@media screen and (max-width: 640px) {
+    header .navbar .navbar-left {
+        padding-left: 20px;
+    }
+
+    header .navbar .navbar-right {
+        padding-right: 15px;
+    }
+
+    main .content .image img {
+        height: 50vw;
+    }
+
+    main .content .c1 {
+        width: 80vw;
+    }
+
+    main .content .c2 {
+        width: 70vw;
+    }
+
+    main .content .c3 button {
+        height: 30px;
+        width: 100px;
+        margin: 0;
+        padding: 0;
+    }
+
+    main .qwerty {
+        flex-direction: column;
+    }
+
+    main .qwerty .qimg {
+        width: 80%;
+    }
+
+    main .qwerty .qq {
+        width: 100%;
+    }
+
+    main .qwerty #qqq {
+        padding: 0 20px;
+    }
+
+    main .qwerty .qq1 {
+        width: 90%;
+        font-size: 25px;
+    }
+    main .ea .eaa {
+        width: 90vw;
+        height: 291px;
+    }
+
+    main .ea .eaa .ea3 {
+        flex-direction: column;
+    }
+
+    main .ea .eaa #eeaa {
+        width: 100%;
+        padding: 5px;
+    }
+
+    main .ea .eaa .ea3 .ea3t #ph {
+        padding-left: 20px;
+    }
+
+    main .ea .eaa .ea3 .ea3t input {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header .navbar .navbar-right {
+        font-size: 15px;
+    }
+
+    header .navbar .navbar-right .list li a {
+        margin: 0;
+    }
+
+    header .navbar .navbar-left .img {
+        height: 60%;
+    }
+
+    main .content .c1 {
+        font-size: 20px;
+    }
+
+    main .content .c2 {
+        font-size: 11px;
+    }
+
+    main .content .bgim {
+        width: 100%;
+        height: 219px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+    }
+
+    main .blocks #bl {
+        width: 80%;
+    }
+
+    main #cooo {
+        margin: 10px;
+        padding: 10px;
+    }
+    footer .fo .ic{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 835px) {
+    main .comments {
+        flex-direction: column;
+    }
+    footer .fo .foot{
+        flex-direction: column;
+
+    }
+    footer .fo #fco{
+        width: 50%;
+        margin: 0;
+        padding-left: 70px;
+        padding: 10px 10px 10px 70px;
+    }
+    footer .fo .social{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    main .ea .eaa{
+        height: 340px;
+    }
+}

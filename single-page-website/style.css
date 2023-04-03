@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    background-color: hsl(217, 28%, 15%);
+}
+
+header .navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .navbar-left {
+    height: 100%;
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navbar .navbar-left .img {
+    height: 100%;
+}
+
+header .navbar .navbar-right {
+    display: flex;
+    padding-right: 56px;
+    font-size: 20px;
+}
+
+header .navbar .navbar-right .list ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header .navbar .navbar-right .list li a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px 8px;
+    color: #fff;
+    position: relative;
+}
+
+header .navbar .navbar-right .list li a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #62e0d9;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+header .navbar .navbar-right .list li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+main {
+    /* height: 100vh; */
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-family: "Open Sans";
+}
+
+main .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(217, 28%, 15%);
+}
+
+main .content .image img {
+    object-fit: fill;
+    object-fit: cover;
+    object-position: center;
+    height: 20vw;
+    padding: 25px;
+}
+
+main .content #cc {
+    margin: 6px;
+    padding: 5px;
+}
+
+main .content .c1 {
+    font-size: 30px;
+    font-weight: 1000;
+    width: 50vw;
+    text-align: center;
+}
+
+main .content .c2 {
+    text-align: center;
+    width: 30vw;
+    font-size: 13px;
+}
+
+main .content .c3 button {
+    text-decoration: none;
+    border: none;
+    background-color: #03f69b;
+    height: 40px;
+    width: 160px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+main .content .bgim {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-image: url(bg-curvy-desktop.svg);
+    z-index: 2;
+}
+
+main .blocks {
+    display: flex;
+    background-color: hsl(218, 28%, 13%);
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main .blocks #bl {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 16px;
+    text-align: center;
+}
+
+main .blocks #kk {
+    margin: 0;
+    padding: 0;
+}
+
+main .blocks .b11 {
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+main .qwerty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 28%, 13%);
+}
+
+main .qwerty .qimg {
+    margin: 20px;
+    padding: 25px;
+    width: 40%;
+}
+
+main .qwerty .qq {
+    width: 50%;
+}
+
+main .qwerty #qqq {
+    margin: 10px;
+    padding: 5px;
+}
+
+main .qwerty .qq1 {
+    font-size: 37px;
+    font-weight: 1000;
+    text-align: inherit;
+    width: 43vw;
+}
+
+main .qwerty .qq4 {
+    cursor: pointer;
+}
+
+main .qwerty .qq4 a {
+    color: rgb(3, 255, 208);
+}
+
+main .comments {
+    background-color: hsl(218, 28%, 13%);
+    background-image: url(bg-quotes.png);
+    background-repeat: no-repeat;
+    display: flex;
+    /* margin: 30px; */
+    padding: 15px;
+
+}
+
+main #cooo {
+    /* display: flex; */
+    font-size: 10px;
+    background-color: hsl(219, 30%, 18%);
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 8px 8px 9px #0a3948;
+    border-radius: 20px;
+}
+
+main .comments .cq1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+}
+
+main .comments .cq2 {
+    display: flex;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+main .comments .cq2 .imagep1 {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+}
+
+main .comments .cq2 .imagep1 img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+main .comments .cq2 .cname {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0 20px;
+}
+
+main .ea {
+    background-color: hsl(219, 30%, 13%);
+    /* height: 40%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .ea .eaa {
+    position: relative;
+    background-color: hsl(217, 28%, 18%);
+    height: 30vh;
+    width: 60vw;
+    box-shadow: 8px 8px 9px #0a3948;
+    text-align: center;
+    top: 84px;
+    border-radius: 13px;
+}
+
+main .ea #ea123 {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+main .ea .eaa .ea3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .ea .eaa .ea3 button {
+    border: none;
+    background-color: #03f69b;
+    border-radius: 40px;
+    height: 40px;
+    width: 151px;
+    cursor: pointer;
+}
+
+main .ea .eaa .ea3 .ea3t {
+    width: 350px;
+    height: 40px;
+}
+
+main .ea .eaa .ea3 .ea3t input {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+main .ea .eaa .ea3 .ea3t #ph {
+    padding: 0 20px;
+}
+
+main .ea .eaa #eeaa {
+    margin: 0 5px;
+    padding: 0 20px;
+}
+
+footer {
+    height: 500px;
+    width: 100%;
+    background-color: hsl(220, 17.6%, 6.7%);
+    color: white;
+}
+
+footer .fo {
+    position: relative;
+    top: 150px;
+    background-color: hsl(220, 17.6%, 6.7%);
+}
+
+footer .fo .foot img {
+    width: 40px;
+}
+
+footer .fo .ic {
+    padding-left: 140px;
+}
+
+footer .fo .foot {
+    display: flex;
+    justify-content: center;
+}
+
+footer .fo #fco {
+    margin: 15px;
+    padding: 22px;
+}
+
+footer .fo .foot .location {
+    display: flex;
+    color: white;
+    width: 25%;
+}
+
+footer .fo .foot .about1 ul,
+.about2 ul {
+    list-style-type: none;
+}
+
+footer .fo .foot ul li {
+    margin: 3px;
+    padding: 3px;
+}
+
+footer .fo .foot .about1 li a,
+.about2 li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer .fo .foot .contact .phone,
+.email {
+    display: flex;
+    align-items: center;
+}
+
+footer .fo .foot .contact {
+    width: 20%;
+}
+
+footer .fo .foot .about1 {
+    width: 10%;
+}
+
+footer .fo .foot .social {
+    display: flex;
+}
+
+footer .fo .foot .social .fb img {
+    width: 25px;
+}
+
+footer .fo .foot .social .twi img {
+    width: 30px;
+}
