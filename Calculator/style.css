@@ -8,7 +8,15 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #9463ff;
+    font-size: 80px;
+    text-shadow: 2px 2px 5px #8a06d4;
 }
 
 .container .calc {
@@ -25,12 +33,12 @@
     text-align: center;
 }
 
-.container .calc .calc-btns .display{
+.container .calc .calc-btns .display {
     display: flex;
     justify-content: center;
 }
 
-.container .calc .calc-btns .row{
+.container .calc .calc-btns .row {
     display: flex;
     justify-content: center;
 }
